@@ -1,0 +1,160 @@
+/* TABLET/SMALL LAPTOP (max-width: 1400px) */
+@media screen and (max-width: 1400px) {
+    section {
+        padding-left: 8rem;
+        padding-right: 8rem;
+    }
+    #profile {
+        height: auto; 
+        min-height: 80vh;
+        margin-bottom: 3rem;
+    }
+    .about-containers, .contact-form-container {
+        flex-wrap: wrap;
+    }
+}
+
+/* TABLET/MID-SIZE DEVICES (max-width: 1024px) */
+@media screen and (max-width: 1024px) {
+    /* NAVIGATION SWITCH */
+    #desktop-nav {
+        display: none;
+    }
+    #hamburger-nav {
+        display: flex; 
+        padding: 0 2rem;
+    }
+
+    /* GLOBAL LAYOUT */
+    section {
+        margin: 0 5%;
+        padding-left: 2rem;
+        padding-right: 2rem;
+        min-height: auto; 
+    }
+    .title {
+        font-size: 2.5rem;
+    }
+    .section-container {
+        flex-direction: column;
+    }
+    
+    /* PROFILE SECTION */
+    #profile {
+        display: block; 
+        padding-top: 15vh;
+        padding-bottom: 5vh;
+        gap: 2rem;
+    }
+    .section__pic-container {
+        width: 250px; 
+        padding-top: 250px; 
+        margin: 0 auto 2rem;
+    }
+    .arrow {
+        display: none; /* Hide arrow on small screens */
+    }
+    .subtitle-bullet-points li {
+        display: block; /* Stack bullets vertically */
+        margin-right: 0;
+    }
+    .subtitle-bullet-points li:not(:last-child) {
+        margin-right: 0;
+    }
+
+    /* ABOUT & EXPERIENCE */
+    .about-containers, .experience-details-container {
+        flex-direction: column; 
+        gap: 2rem;
+    }
+    .details-container {
+        width: 100%; 
+        min-width: unset;
+    }
+    .experience-details-container > div {
+        width: 100%;
+    }
+    
+    /* CONTACT SECTION */
+    .contact-form-container {
+        gap: 2rem;
+    }
+    .form-wrapper, .quick-links-wrapper {
+        min-width: 100%;
+        max-width: 100%;
+    }
+    .form-wrapper form div {
+        flex-direction: column;
+        gap: 0;
+    }
+    .form-wrapper form div input {
+        flex: unset;
+    }
+}
+
+/* MOBILE PHONE (max-width: 600px) */
+@media screen and (max-width: 600px) {
+    
+    /* NAVIGATION */
+    #hamburger-nav {
+        height: 8vh;
+        padding: 0 1rem;
+    }
+    .logo {
+        font-size: 1.5rem;
+    }
+    
+    /* TYPOGRAPHY */
+    .title {
+        font-size: 2rem;
+    }
+    .section__text__p1 {
+        font-size: 0.9rem;
+    }
+    
+    /* PROFILE & BUTTONS */
+    #profile {
+        padding-top: 12vh;
+    }
+    .section__pic-container {
+        width: 200px; 
+        padding-top: 200px; 
+    }
+    .btn-container {
+        flex-direction: column; 
+    }
+    .btn {
+        width: 100%;
+        max-width: 200px;
+        margin: 0 auto;
+    }
+
+    /* EXPERIENCE */
+    .experience-sub-title {
+        font-size: 1.3rem;
+    }
+    .article-container {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 0.5rem 1rem;
+        padding: 0 1rem;
+    }
+    article {
+        width: 100%;
+    }
+    
+    /* CONTACT */
+    .form-btn {
+        max-width: 100%;
+    }
+
+    /* FOOTER */
+    footer {
+        height: auto;
+        padding: 1rem 0;
+    }
+    footer p {
+        line-height: normal; 
+        font-size: 0.75rem;
+    }
+}

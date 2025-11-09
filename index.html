@@ -1,0 +1,316 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rohith's Portfolio - Deep Space Theme</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div id="particles-js"></div>
+
+    <nav id="desktop-nav">
+        <div class="logo">Rohith Singireddy</div>
+        <div>
+            <ul class="nav-links">
+                <li><a href="#about">About</a></li>
+                <li><a href="#experience">Experience</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#certificates">Certificates</a></li> 
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </div>
+    </nav>
+    <nav id="hamburger-nav">
+        <div class="logo">Rohith Singireddy</div>
+        <div class="hamburger-menu">
+            <div class="hamburger-icon" onclick="toggleMenu()">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+            <div class="menu-links">
+                <li><a href="#about" onclick="toggleMenu()">About</a></li>
+                <li><a href="#experience" onclick="toggleMenu()">Experience</a></li>
+                <li><a href="#projects" onclick="toggleMenu()">Projects</a></li>
+                <li><a href="#certificates" onclick="toggleMenu()">Certificates</a></li>
+                <li><a href="#contact" onclick="toggleMenu()">Contact</a></li>
+            </div>
+        </div>
+    </nav>
+
+    <section id="profile">
+        <div class="section__pic-container">
+            <img src="C:\New folder\assests\about-pic.png" alt="Rohith Singireddy profile picture">
+        </div>
+        <div class="section__text">
+            <p class="section__text__p1">Hello, I'm</p>
+            <h1 class="title">Rohith Singireddy</h1>
+            
+            <div class="subtitle-bullet-points">
+                <ul>
+                    <li><p class="section__text__p2">Frontend Developer</p></li>
+                    <li><p class="section__text__p2">Backend Developer</p></li>
+                    <li><p class="section__text__p2">Video Editor</p></li>
+
+                </ul>
+            </div>
+            
+            <div class="btn-container">
+                <button class="btn btn-color-2" onclick="window.open('./assets/resume.pdf')">
+                    Download CV
+                </button>
+                <button class="btn btn-color-1" onclick="location.href='./#contact'">
+                    Contact Info
+                </button>
+            </div>
+            <div id="socials-container">
+                <img src="./assets/linkedin.png" alt="My LinkedIn profile" class="icon" onclick="location.href='https://www.linkedin.com/in/singireddyrohith-/'">
+                <img src="./assets/github.png" alt="My Github profile" class="icon" onclick="location.href='https://github.com/rohithsingireddy995'">
+            </div>
+        </div>
+        
+        <img src="./assets/arrow.png" alt="Scroll Down Arrow" class="icon arrow"> 
+    </section>
+
+    <section id="about">
+        <p class="section__text__p1">Get To Know More</p>
+        <h1 class="title">About Me</h1>
+        <div class="section-container">
+            <div class="section__pic-container">
+                <img src="./assets/about-pic.png" alt="Profile picture" class="about-pic">
+            </div>
+            <div class="about-details-container">
+                <div class="about-containers">
+                    <div class="details-container">
+                        <img src="./assets/experience.png" alt="Experience icon" class="icon">
+                        <h3>Experience</h3>
+                        <p>Fresher</p>
+                    </div>
+                    <div class="details-container">
+                        <img src="./assets/education.png" alt="Education icon" class="icon">
+                        <h3>Education</h3>
+                        <p>B Tech Bachelor of Technology</p>
+                    </div>
+                </div>
+                <div class="text-container">
+                    <p>
+                        A dedicated B. Tech student specializing in Computer Science and Engineering with a robust foundation in programming and problem-solving. Key technical skills include Python, Java, C, Data Structures, Algorithms, and basic web development (HTML, CSS, JavaScript).
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="experience">
+        <p class="section__text__p1">Explore My</p>
+        <h1 class="title">Experience</h1>
+        <div class="experience-details-container">
+            <div class="about-containers experience">
+                <div class="details-container">
+                    <h2 class="experience-sub-title">Frontend Development</h2>
+                    <div class="article-container">
+                        <article>
+                            <img src="./assets/checkmark.png" alt="Experience icon" class="icon">
+                            <div><h3>HTML</h3><p>Experienced</p></div>
+                        </article>
+                        <article>
+                            <img src="./assets/checkmark.png" alt="Experience icon" class="icon">
+                            <div><h3>CSS</h3><p>Intermediate</p></div>
+                        </article>
+                        <article>
+                            <img src="./assets/checkmark.png" alt="Experience icon" class="icon">
+                            <div><h3>JavaScript</h3><p>Basic</p></div>
+                        </article>
+                        <article>
+                            <img src="./assets/checkmark.png" alt="Experience icon" class="icon">
+                            <div><h3>React</h3><p>Intermediate</p></div>
+                        </article>
+                    </div>
+                </div>
+                <div class="details-container">
+                    <h2 class="experience-sub-title">Backend Development</h2>
+                    <div class="article-container">
+                        <article>
+                            <img src="./assets/checkmark.png" alt="Experience icon" class="icon">
+                            <div><h3>Python</h3><p>Intermediate</p></div>
+                        </article>
+                        <article>
+                            <img src="./assets/checkmark.png" alt="Experience icon" class="icon">
+                            <div><h3>Node JS</h3><p>Basic</p></div>
+                        </article>
+                        <article>
+                            <img src="./assets/checkmark.png" alt="Experience icon" class="icon">
+                            <div><h3>C Programming</h3><p>Intermediate</p></div>
+                        </article>
+                        <article>
+                            <img src="./assets/checkmark.png" alt="Experience icon" class="icon">
+                            <div><h3>Java</h3><p>Intermediate</p></div>
+                        </article>
+                        <article>
+                            <img src="./assets/checkmark.png" alt="Experience icon" class="icon">
+                            <div><h3>MYSQL</h3><p>Intermediate</p></div>
+                        </article>
+                        <article>
+                            <img src="./assets/checkmark.png" alt="Experience icon" class="icon">
+                            <div><h3>Git</h3><p>Basic</p></div>
+                        </article>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="projects">
+        <p class="section__text__p1">Browse My Recent</p>
+        <h1 class="title">Projects</h1>
+        <div class="experience-details-container">
+            
+            <div class="about-containers projects two-projects"> 
+                
+                <div class="details-container color-container">
+                    <div class="project-img"> 
+                        <img src="./assets/project-1.png" alt="Project 1">
+                    </div>
+                    
+                    <h2 class="experience-sub-title project-title">Attendance FaceRecognition</h2>
+                    <div class="btn-container">
+                        <button class="btn btn-color-2 project-btn" onclick="location.href='https://github.com/rohithsingireddy995/-Attendance_FaceRecognition'">
+                            Github
+                        </button>
+                    </div>
+                </div>
+                
+                <div class="details-container color-container">
+                    <div class="project-img"> 
+                        <img src="./assets/project-2.png" alt="Project 2">
+                    </div>
+                    
+                    <h2 class="experience-sub-title project-title">UrbanCanteen Food Ordering System Through QR</h2>
+                    <div class="btn-container">
+                        <button class="btn btn-color-2 project-btn" onclick="location.href='https://github.com/rohithsingireddy995/UrbanCanteen-Food-Ordering-System-Through-QR-main'">
+                            Github
+                        </button>
+                    </div>
+                </div>
+                
+            </div>
+            </div>
+    </section>
+
+    <section id="certificates">
+        <p class="section__text__p1">Validate My Expertise</p>
+        <h1 class="title">Certificates/Publications</h1>
+        <div class="experience-details-container">
+            <div class="about-containers experience">
+                
+                <div class="details-container">
+                    <h2 class="experience-sub-title">Web Development</h2>
+                    <div class="article-container">
+                        <article>
+                            <img src="./assets/certificate.png" alt="Certificate icon" class="icon">
+                            <div>
+                                <h3><a href="https://drive.google.com/file/d/1tjOfB7zpq0Ql4-vYJKe5P964QGhpnymG/view?usp=drive_link" target="_blank">Frontend Basics</a></h3>
+                                <p>Coursera, 2022</p>
+                            </div>
+                        </article>
+                        <article>
+                            <img src="./assets/certificate.png" alt="Certificate icon" class="icon">
+                            <div>
+                                <h3><a href="https://drive.google.com/drive/folders/1eHq-6Th2vtQS8ijiCSLHSSxwh9JfruUe?usp=drive_link "target="_blank">React/JS</a></h3>
+                                <p>IBM Skill build, 2023</p>
+                            </div>
+                        </article>
+                    </div>
+                </div>
+
+                <div class="details-container">
+                    <h2 class="experience-sub-title">Achievements & Publications 🏆</h2>
+                    <div class="article-container">
+                        
+                        <article>
+                            <img src="./assets/certificate.png" alt="Certificate icon" class="icon">
+                            <div>
+                                <h3><a href="https://drive.google.com/file/d/1sJuddszLG4UV7zmEiTg7RIt5F_hrhCwd/view?usp=drive_link" target="_blank">Python Full Internship</a></h3>
+                                <p>Codegnan IT Solution</p>
+                            </div>
+                        </article>
+                        
+                        <article>
+                            <img src="./assets/certificate.png" alt="Certificate icon" class="icon">
+                            <div>
+                                <h3><a href="https://drive.google.com/file/d/1hj2FKQNwhhRSnxxz1x0GAB-TBRJ4OIef/view?usp=drive_link" target="_blank">Published Project</a></h3>
+                                <p>JSRM Publication</p>
+                            </div>
+                        </article>
+                        
+                        <article>
+                            <img src="./assets/certificate.png" alt="Certificate icon" class="icon">
+                            <div>
+                                <h3><a href="https://drive.google.com/file/d/1zE89-Z9N4qf0wwt8nLCCrRnqJ8EuwlcM/view?usp=drive_link" target="_blank">Short Film - 1st Prize</a></h3>
+                                <p>IIT Kharagpur</p>
+                            </div>
+                        </article>
+
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <section id="contact">
+        <p class="section__text__p1">Get in Touch</p>
+        <h1 class="title">Contact Me</h1>
+        
+        <div class="contact-form-container">
+            
+            <div class="form-wrapper">
+                <h2 class="contact-sub-title">Send a Message</h2>
+                <p class="contact-sub-text">Available for internships and junior roles — let's build something great.</p>
+                
+                <form action="#">
+                    <div>
+                        <input type="text" placeholder="Your name" required>
+                        <input type="email" placeholder="Your email" required>
+                    </div>
+                    <textarea placeholder="Message" rows="5" required></textarea>
+                    
+                    <div class="form-buttons">
+                        <button type="submit" class="btn btn-color-1 form-btn">Send Message</button>
+                    </div>
+                </form>
+            </div>
+
+            <div class="quick-links-wrapper">
+                <h2 class="contact-sub-title">Direct Links</h2>
+                <ul class="quick-links-list">
+                    <li class="contact-info-container">
+                        <img src="./assets/email.png" alt="Email icon" class="icon" /> 
+                        <p><a href="mailto:rohitreddy99518@gmail.com">rohitreddy99518@gmail.com</a></p>
+                    </li>
+                    <li class="contact-info-container">
+                        <img src="./assets/phone.png" alt="Phone icon" class="icon" />
+                        <p><a href="tel:+919951818299">+91 99518 18299</a></p>
+                    </li>
+                    <li class="contact-info-container">
+                        <img src="./assets/linkedin.png" alt="LinkedIn icon" class="icon" />
+                        <p><a href="https://www.linkedin.com/in/singireddyrohith-/" target="_blank">LinkedIn Profile</a></p>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <p>Copyright &#169; 2025 Rohith Singireddy. All Rights Reserved.</p>
+    </footer>
+
+    <script src="index.js"></script> 
+</body>
+</html>
