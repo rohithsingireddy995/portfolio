@@ -51,7 +51,7 @@ To run this project locally, follow these steps:
     ```
 2.  **Navigate to the project directory:**
     ```bash
-    cd YourRepoName
+    cd portfolio
     ```
 3.  **Open in your browser:**
     Simply open the `index.html` file in your preferred web browser.
